@@ -18,6 +18,7 @@ function App() {
     const val = checkWinner(updatedArr);
     if (val) {
       alert(`${player} is the winner`);
+      reset();
       return;
     }
     setPlayer((p) => {
