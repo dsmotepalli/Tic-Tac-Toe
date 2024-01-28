@@ -68,6 +68,9 @@ function App() {
         >
           RESET
         </button>
+        <div className="absolute bottom-3 font-mono">
+          Made by <a href="https://github.com/dsmotepalli" target="_blank" className="opacity-80 underline">Deepak</a>
+        </div>
       </div>
     </>
   );
